@@ -1,7 +1,7 @@
 视频互通（网页版）
 ---
 
-###本机联调
+### 本机联调
 
 不启服务：浏览器直接开两个index.html页
 
@@ -9,7 +9,7 @@
 
 启http服务：`live-server . --port=端口`
 
-###内网联调
+### 内网联调
 
 ```
 npm install live-server -g
@@ -21,7 +21,7 @@ live-server . --https=./config.js --port=端口 --host=内网ip
 live-server 
 >https://www.npmjs.com/package/live-server
 
-###登陆
+### 登陆
 
 - App ID
 - Channel
