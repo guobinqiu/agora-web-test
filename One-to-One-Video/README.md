@@ -27,4 +27,4 @@ live-server
 - Channel
 - Token
 
-从声网开发者中心(https://docs.agora.io/en)获取。双端对等输入即可互通
+从[声网开发者中](https://docs.agora.io/en)获取。双端对等输入即可互通
