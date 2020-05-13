@@ -21,7 +21,7 @@ live-server . --https=./config.js --port=端口 --host=内网ip
 live-server 
 >https://www.npmjs.com/package/live-server
 
-### 登陆
+### 登录
 
 - App ID
 - Channel
