@@ -7,7 +7,7 @@
 
 或
 
-启http服务：live-server . --port=端口
+启http服务：`live-server . --port=端口`
 
 ###内网联调
 
