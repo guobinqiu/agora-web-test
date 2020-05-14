@@ -7,21 +7,29 @@
 
 或
 
-启http服务：`live-server . --port=端口`
+启http服务：`live-server . --port=5000`
 
 ### 内网联调
+
+A机：
 
 ```
 npm install live-server -g
 openssl req -newkey rsa:2048 -new -nodes -x509 -days 3650 -keyout key.pem -out cert.pem
-live-server . --https=./config.js --port=端口 --host=内网ip
+live-server . --https=./config.js --port=5000
 ```
 启https服务，config.js是https的配置模块
 
 live-server 
 >https://www.npmjs.com/package/live-server
 
-### 登录
+访问https://127.0.0.1:5000
+
+B机：
+
+访问https://A机ip:5000
+
+连线：
 
 - App ID
 - Channel
